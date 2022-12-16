@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Le salon de coiffure KIMO BARBER situé en plein cœur de quartier 
+    universitaire Saint-Jêrome à Marseille, 
+    vous accueille dans une ambiance intime, chaleureuse et unique pour vous proposer des prestations coiffure 
+    masculine. Chez KIMO BARBER, nous mettrons tout en action pour vous conseiller et vous 
+    satisfaire !"/>
+    <meta name="keywords" content="KIMO BARBER,  
+    Coiffeur à Saint Jêrome,
+    Coiffeur à Marseille,
+    Coiffeur aux Estudine,
+    Coiffeur à l'université,
+    Coiffeur à Polytech,
+    Coiffeur Homme, Taper, dégradé, meilleur coiffeur, meilleur coiffeur sur Marseille, coiffeur à domicile,"/>
+    <title>KIMO BARBER</title>
+    <meta property="og:title" content="KIMO BARBER"/>
+    <meta property="og:url" content="https://www.kimobarber.fr"/>
+    <link rel="stylesheet" type="text/css" href="Accueil.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/logoonglet.png" type="img">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap'); </style>
+</head>
+<body>
+
+    <nav class="barre">
+        <a class="titlebarre" href="Accueil.html">ACCUEIL</a>
+        <a class="titlebarre" href="#CDS">PRESTATIONS ET TARIFS</a>
+        <a class="titlebarre" href="https://calendly.com/kimo_barber" target="_blank">RENDEZ-VOUS</a>
+        <a class="titlebarre" href="Contact.html">CONTACT</a>
+        <div class="animation start-home"></div>
+    </nav>
+
+        <div class="bloctitre">
+            <h1 class="titreprinc">KIMO BARBER</h1>
+                <a class="input" href="https://calendly.com/kimo_barber" target="_blank" >
+                    <span>PRENDRE RENDEZ-VOUS</span>
+
+                    <!-- j'ai utilisé du js ici pour faire l'effet de bulle en hover sur le cadre 'PRENDRE RENDEZ-VOUS'.
+                        Ce code prend en compte les variable x et y en fonction des coordonnées de la souris au moment ou le pointeur rentre dans le cadre.
+
+                    -->
+                    <script>
+                        const input = document.querySelector('.input');
+                        input.onmousemove = function(e){
+                            const x = e.pageX - input.offsetLeft;
+                            const y = e.pageY - input.offsetTop;
+
+                            input.style.setProperty('--x', x + 'px');
+                            input.style.setProperty('--y', y + 'px'); 
+                        }
+                    </script>
+                </a>
+
+        </div>
+
+    <div class="box1">
+        <div class="sous1_box1">
+
+            <a href="https://www.instagram.com/kimo_barber13/?next=%2F" target="_blank" >
+                <div class="boxheader">
+                    <img src="img/INSTA.png" alt="">
+                    <span class="boxheader_txt">INSTAGRAM</span>
+                </div>
+            </a>
+
+            <a href="tel:+33-7-83-36-54-35">
+                <div class="boxheader2">
+                    <img src="img/TEL.png" alt="">
+                    <span class="boxheader_txt">+33 7 83 36 54 35</span>
+                </div>
+            </a>
+    
+            <a href="Contact.html">
+                <div class="boxheader">
+                    <img src="img/MESS.png" alt="">
+                    <span class="boxheader_txt">PRENDRE CONTACT</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="sous2_box1">
+            <h1 class="titre1" id="Presentation">Kimo Barber, votre coiffeur à l'université de Saint Jérôme</h1>
+            <div class="content_sous2_box1">
+                <img class="img_sous2_box1" src="img/notrelogo.png" alt="">
+                <span class="txt_sous2_box1">Kimo, le coiffeur de l'université qui vient subvenir aux besoins 
+                    de tous. Aucun étudiant n'aura d'excuse pour mettre à jour sa coiffure et son allure. 
+                    Il s'agit pour vous, étudiant ou autres, 
+                    d'être au paroxysme de votre prestance.
+                    <br><br><br>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="box2">
+        <h1 class="titre">Qui sommes-nous ?</h1>
+        <div class="imgtxt_box2">
+            <img class="img" src="img/KARIM.jpeg" alt="">
+            <p class="text_sousimg">Je suis Karim, alias Kimo ,jeune étudiant adepte d'art et de sports. 
+                Je suis ambitieux de refléter mes qualités artistiques sur les coupes des étudiants. </p>
+            <br><br>
+        </div>
+            
+        <div class="imgtxt_box2">
+            <img class="img" src="img/ILYES.jpeg" alt="">
+            <p class="text_sousimg"> Moi c'est Ilyes, tout comme Karim je suis étudiant et fan de sport. 
+                Mon job au sein de ce projet est de gérer de manière optimale la prise de rendez-vous et 
+                d'assurer une bonne communication afin de faire perdurer ce projet.</p>
+        </div>
+
+    </div>
+    <div class="box3">
+        <h1 class="titre">Le commencement ...</h1>
+        <div class="content_box3">
+            <img class="img_box3" src="img/imgpresent.jpeg" alt="">
+            <span class="txt_box3">
+                Curieux de s’aventurer dans le domaine de la coiffure, nous avons décidé de se lancer dans un projet.
+                Il s’agit de la concrétisation d’un travail effectué sur Ilyes pendant 
+                toute une année.
+                En effet, il demeurait jusque-là mon seul modèle.
+                C'est ainsi qu'à raisonner l'idée, de développer le concept pour tous les étudiants de 
+                l'université de Saint-Jerôme, et pas que !
+            </span>
+        </div>
+    </div>
+
+    <div class=box4>
+        <div class="content_box4">
+            <span class="txt_box4">
+                Fini le stress d'avoir une coiffure irréprochable, 
+                Kimo barber vous propose un concept idéal pour vous, étudiants. 
+                Ce concept consiste à vous couper les cheveux directement chez KIMO qui est à deux 
+                pas de l'université de Saint-Jêrome.
+                L'avantage c'est que vous n'aurez plus à vous déplacer à un salon, KIMO est présent à vos côtés et s'occupera de votre coupe.
+                Dès à présent, vous bénéficierez d'un gain de temps ainsi que d'argent.            
+            </span>
+            <img class="img_box4" src="img/Logopresent.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="box5">
+        <h1 id="CDS" class="titre">Prestations et Tarifs</h1>
+        <div>
+            <h2 style="color: lightgrey; font-family: 'Dancing Script', cursive; font-size: 50px;  letter-spacing: 2px;
+            line-height: 1.4em; margin-left: 20%; box-shadow: 0px 0px 10px black; width: 60%; border-radius: 15px; margin-bottom: 5%;">
+                Retrouvez toutes nos prestations pour seulement 7€
+            </h2>
+        </div>
+        <div class="img_box5">
+            <img class="img" src="img/MEC.jpeg" alt="IlyesG">
+        </div>
+        <div class="img_box5">
+            <img class="img" src="img/BaptisteA.jpeg" alt="BaptisteA">
+        </div>
+        <div class="img_box5">
+            <img class="img" src="img/SalahG.jpeg" alt="SalahG">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer_contact">
+            <img src="img/appellefooter.png" alt="logo_appelle">
+            <a class="footer_contact_tel" href="tel:+33-7-83-36-54-35" style="position: relative; bottom: 10px;">+33 7 83 36 54 35</a>
+            <img src="img/posfooter.jpg" alt="logo_position">
+            <a href="https://www.google.com/maps/place/40+Av.+Escadrille+Normandie+Niemen,+13013+Marseille/@43.3345952,5.4067862,17z/data=!3m1!4b1!4m5!3m4!1s0x12c9bf94f4816dbf:0xfe58a8986168193c!8m2!3d43.3345914!4d5.4110134" 
+            target="_blank" class="footer_contact_adresse" style="position: relative; bottom: 10px;">40 Av. Escadrille Normandie Niemmen - 13013 Marseille</a>
+        </div>
+        <hr class="hr">
+        <div class="footer_copyright">
+            <span class="footer_copyright_content">© 2022</span>
+            <span class="footer_copyright_content"> - </span>
+            <a class="footer_copyright_content_href" target="_blank" href="https://www.economie.gouv.fr/entreprises/site-internet-mentions-obligatoires">INFORMATION LÉGALE</a>
+            <span class="footer_copyright_content"> - </span>
+            <a  class="footer_copyright_content_href" href="https://www.vd-avocat.fr/conditions-generales-d-utilisation" target="_blank">CGU</a>
+            <span class="footer_copyright_content"> - </span>
+            <a class="footer_copyright_content_href" target="_blank" href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/politique-de-confidentialite-sur-internet/">PARAMÉTRER LES COOKIES</a>
+        </div>
+
+    </footer>
+</body>
+</html>
